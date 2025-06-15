@@ -1,4 +1,4 @@
-export async function handler() {
+export async function lambda_handler() {
   const API_KEY = process.env.GOOGLE_API_KEY;
   const PROMPT = process.env.FLUCH_PROMPT;
 
