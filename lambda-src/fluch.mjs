@@ -35,7 +35,6 @@ export async function lambda_handler() {
     "Ein dunkles Schicksal erwartet dich...";
   return {
     statusCode: 200,
-    headers: { "Access-Control-Allow-Origin": "*" },
     body: JSON.stringify({ text }),
   };
 }
