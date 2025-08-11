@@ -24,7 +24,7 @@ module "lambda_fluch" {
     GOOGLE_API_KEY = var.google_api_key,
     FLUCH_PROMPT   = var.fluch_prompt,
   }
-
+  timeout             = 7
   create_function_url = true
 
 }
